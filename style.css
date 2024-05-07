@@ -12,8 +12,7 @@
   
 }
 .header{
-    background: black;
-    color: #fff;
+    background-color: black;
     padding: 10px;
     display: flex;
     align-items: center;
@@ -22,7 +21,7 @@
 
 .nav-bar a{
     font-family: phetsarath ot;
-    color: rgb(255, 255, 255);
+    color: red;
     font-size: 1.5rem;
     margin-left: 2rem;
     text-decoration: none;
@@ -31,14 +30,13 @@
    
     margin-top: 3rem;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 .content-1{
     margin-bottom: 1rem;
     margin-left: 2rem;
 }
 .content-1 h2 {
-    font-family: phetsarath ot;
     margin-bottom: 1.5rem;
 }
 .content-1 a{
@@ -50,22 +48,20 @@
     background-color: black;
 }
 
-.content-2 img{
-    border-radius: 2rem;
-    width: 100%;
+.content-img img{
+    border-radius: 50px;
+    width: 360px;
     justify-content: flex-end;
     align-items: end;
 }
 .content-con{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 1rem;
+    row-gap: 10px;
+    text-align: center;
 }
 .content-item img{
-    border-radius: 2rem;
-    width: 25rem;
-    padding: 10px 0;
-    
+    border-radius: 10px;    
 }
 .content-item h3{
     text-align: center;
@@ -76,7 +72,7 @@
     text-align: center;
     padding-bottom: 10px;
     font-size: larger;
-    color: blue;
+    color: rgb(0, 0, 0);
 }
 .content{
     padding: 2rem;
@@ -88,7 +84,7 @@
 .foot-con{
     margin-top: 2rem;
     text-align: center;
-    background-color: gray;
+    background-color: #bebebe;
     padding: 2rem;
 }
 .footer{
@@ -99,4 +95,21 @@
 .foot-btn{
     font-size: 2.5rem;
 }
-
+.foot-btn a{
+    color: black;
+}
+.data:hover{
+    background-color: darkolivegreen;
+}
+.data:focus{
+    background-color: darkred;
+}
+#image{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+}
+#image img{
+    border-radius: 10px;
+}
